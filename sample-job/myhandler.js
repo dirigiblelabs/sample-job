@@ -14,6 +14,11 @@ console.log('echo boolParam: ' + boolParam);
 console.log('echo choiceParam: ' + choiceParam);
 console.log('echo notExisting: ' + notExisting);
 
+job.log("my message");
+job.error("my error");
+job.warn("my warning");
+job.info("my info");
+
 // enable Job
 //job.enable();
 
